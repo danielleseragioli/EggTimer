@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tkn-If-vis">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cxi-W1-gcV">
+            <objects>
+                <viewController id="tkn-If-vis" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4zD-pM-7VE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="TimerEgg_LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="HuW-gk-xO2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oBC-FF-5vM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HuW-gk-xO2" firstAttribute="top" secondItem="4zD-pM-7VE" secondAttribute="top" id="2Rw-PO-2Qm"/>
+                            <constraint firstItem="HuW-gk-xO2" firstAttribute="centerX" secondItem="4zD-pM-7VE" secondAttribute="centerX" id="86A-ij-3Qm"/>
+                            <constraint firstItem="HuW-gk-xO2" firstAttribute="leading" secondItem="oBC-FF-5vM" secondAttribute="leading" id="GxT-oC-EDb"/>
+                            <constraint firstAttribute="bottom" secondItem="HuW-gk-xO2" secondAttribute="bottom" id="aXs-LD-FIn"/>
+                            <constraint firstItem="HuW-gk-xO2" firstAttribute="trailing" secondItem="oBC-FF-5vM" secondAttribute="trailing" id="sgg-pM-cId"/>
+                            <constraint firstItem="HuW-gk-xO2" firstAttribute="centerY" secondItem="4zD-pM-7VE" secondAttribute="centerY" id="v93-lV-Hy5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wCP-l8-4jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="TimerEgg_LaunchScreen" width="414" height="896"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
